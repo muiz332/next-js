@@ -1,0 +1,6 @@
+sumber materi
+
+youtube
+
+- erdecode       = next js
+- prawito hudoro = tutorial next js

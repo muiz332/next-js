@@ -1,0 +1,2 @@
+untuk useState,useEffect,event didalam next js itu sama seperti didalam react
+ya, jadi kalo sudah belajar react pasti bisa menggunakannya didalam next js

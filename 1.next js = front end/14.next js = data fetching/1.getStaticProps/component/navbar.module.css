@@ -1,0 +1,12 @@
+.navbar-ku{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 300px;
+}
+.navbar-ku ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
