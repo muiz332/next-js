@@ -1,0 +1,37 @@
+POST http://localhost:3000/api/post
+Content-Type: application/json
+
+{
+    "title" : "test",
+    "content" : "test"
+}
+
+###
+GET http://localhost:3000/api/post
+
+###
+GET http://localhost:3000/api/post/5
+
+###
+
+PUT http://localhost:3000/api/post/5
+Content-Type: application/json
+
+{
+    "title" : "halo",
+    "content" : "halo juga"
+}
+
+### 
+
+DELETE http://localhost:3000/api/post/5
+
+
+###
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "email" : "muiz@gmail.com",
+    "password" : "12345"
+}

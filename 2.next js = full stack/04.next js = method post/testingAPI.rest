@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/post
+Content-Type: application/json
+
+{
+    "title" : "javascript lanjutan",
+    "content" : "adalah sebuah bahasa pemrograman single threaded,non blocking,asyncronous,dan concurrent language"
+}

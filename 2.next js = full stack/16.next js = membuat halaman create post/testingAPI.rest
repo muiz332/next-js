@@ -1,0 +1,54 @@
+POST http://localhost:3000/api/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJtdWl6QGdtYWlsLmNvbSIsImlhdCI6MTY2MDQ3NjI3NiwiZXhwIjoxNjYxMDgxMDc2fQ.gzYniT_5wpopL-dzU3Y9Akd7JEk-X-TW5Jp4VeYix8o
+Content-Type: application/json
+
+{
+    "title" : "test",
+    "content" : "test"
+}
+
+###
+
+GET http://localhost:3000/api/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJtdWl6QGdtYWlsLmNvbSIsImlhdCI6MTY2MDQ3NjI3NiwiZXhwIjoxNjYxMDgxMDc2fQ.gzYniT_5wpopL-dzU3Y9Akd7JEk-X-TW5Jp4VeYix8o
+
+###
+GET http://localhost:3000/api/post/6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJtdWl6QGdtYWlsLmNvbSIsImlhdCI6MTY2MDQ3NjI3NiwiZXhwIjoxNjYxMDgxMDc2fQ.gzYniT_5wpopL-dzU3Y9Akd7JEk-X-TW5Jp4VeYix8o
+###
+
+PUT http://localhost:3000/api/post/10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJtdWl6QGdtYWlsLmNvbSIsImlhdCI6MTY2MDQ3NjI3NiwiZXhwIjoxNjYxMDgxMDc2fQ.gzYniT_5wpopL-dzU3Y9Akd7JEk-X-TW5Jp4VeYix8o
+Content-Type: application/json
+
+{
+    "title" : "halo",
+    "content" : "halo juga"
+}
+
+### 
+
+DELETE http://localhost:3000/api/post/6
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJtdWl6QGdtYWlsLmNvbSIsImlhdCI6MTY2MDQ3NjI3NiwiZXhwIjoxNjYxMDgxMDc2fQ.gzYniT_5wpopL-dzU3Y9Akd7JEk-X-TW5Jp4VeYix8o
+
+
+
+### auth
+
+###
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "email" : "muiz@gmail.com",
+    "password" : "12345"
+}
+
+### 
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email" : "muiz@gmail.com",
+    "password" : "12345"
+}

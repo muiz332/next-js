@@ -1,0 +1,23 @@
+POST http://localhost:3000/api/post
+Content-Type: application/json
+
+{
+    "title" : "test",
+    "content" : "test"
+}
+
+###
+GET http://localhost:3000/api/post
+
+###
+GET http://localhost:3000/api/post/4
+
+###
+
+PUT http://localhost:3000/api/post/9
+Content-Type: application/json
+
+{
+    "title" : "halo",
+    "content" : "halo juga"
+}

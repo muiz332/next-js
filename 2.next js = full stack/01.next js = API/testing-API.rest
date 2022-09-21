@@ -1,0 +1,14 @@
+GET http://localhost:3000/api/hello?nama=muiz&alamat=wringinpitu
+
+###
+
+GET http://localhost:3000/api/hello/1
+
+###
+POST http://localhost:3000/api/hello
+Content-Type: application/json
+
+{
+    "nama" : "muiz",
+    "alamat" : "wringinpitu"
+}

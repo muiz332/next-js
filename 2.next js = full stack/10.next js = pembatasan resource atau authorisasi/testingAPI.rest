@@ -1,0 +1,52 @@
+POST http://localhost:3000/api/post
+Content-Type: application/json
+
+{
+    "title" : "test",
+    "content" : "test"
+}
+
+### nah di sini kalo kita kita akan mengirimkan tokennya dengan menuliskan
+### dan pastikan kalian login terlebih dahulu untuk mendapatkan tokennya
+GET http://localhost:3000/api/post
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJtdWl6QGdtYWlsLmNvbSIsImlhdCI6MTY2MDQ3NjI3NiwiZXhwIjoxNjYxMDgxMDc2fQ.gzYniT_5wpopL-dzU3Y9Akd7JEk-X-TW5Jp4VeYix8o
+
+###
+GET http://localhost:3000/api/post/5
+
+###
+
+PUT http://localhost:3000/api/post/5
+Content-Type: application/json
+
+{
+    "title" : "halo",
+    "content" : "halo juga"
+}
+
+### 
+
+DELETE http://localhost:3000/api/post/5
+
+
+
+
+### auth
+
+###
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "email" : "muiz@gmail.com",
+    "password" : "12345"
+}
+
+### 
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email" : "muiz@gmail.com",
+    "password" : "12345"
+}
